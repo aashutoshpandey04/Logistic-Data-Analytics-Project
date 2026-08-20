@@ -1,1 +1,66 @@
+# Processed Data
 
+This folder contains the cleaned and preprocessed versions of the Zomato Delivery Operations dataset.
+
+## Purpose
+
+The datasets stored in this folder are generated after applying data cleaning and preprocessing techniques to the raw data. These files are used for Exploratory Data Analysis (EDA), KPI evaluation, visualization, and machine learning.
+
+## Contents
+
+### cleaned_zomato_delivery.csv
+
+This dataset has been processed through the following steps:
+
+- Missing value handling
+- Duplicate record removal
+- Data type conversion
+- Outlier detection and treatment
+- Categorical variable encoding
+- Feature engineering
+- Data normalization/standardization
+
+## Why Use Processed Data?
+
+Using processed data improves:
+
+- Data quality
+- Analytical accuracy
+- Model performance
+- Reliability of business insights
+
+The processed dataset serves as the primary input for all subsequent analysis and predictive modeling tasks.
+
+## Workflow
+
+```text
+Raw Dataset
+      ↓
+Data Cleaning
+      ↓
+Data Preprocessing
+      ↓
+Feature Engineering
+      ↓
+Processed Dataset
+      ↓
+EDA & Machine Learning
+```
+
+## Important Note
+
+- Do not manually edit processed files unless necessary.
+- Regenerate processed datasets by running the preprocessing scripts in the `src/` folder.
+- Keep raw and processed datasets separate to maintain reproducibility.
+
+## Related Files
+
+- Source Data: `data/raw/zomato_delivery.csv`
+- Cleaning Script: `src/data_cleaning.py`
+- Feature Engineering Script: `src/feature_engineering.py`
+
+## Project
+
+Zomato Delivery Analytics Project
+
+This dataset is prepared for logistics performance analysis, KPI measurement, and delivery delay prediction.
